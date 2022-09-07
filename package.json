@@ -1,0 +1,21 @@
+{
+  "name": "kafka_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:producer": "nodemon ./producer/index.js",
+    "start:consumer": "nodemon ./consumer/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "avsc": "^5.7.5",
+    "node-rdkafka": "^2.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
